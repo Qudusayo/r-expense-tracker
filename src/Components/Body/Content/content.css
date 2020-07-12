@@ -1,0 +1,42 @@
+.flex_expenses {
+  overflow-y: auto;
+  max-height: 120vh;
+}
+
+.flex_expenses .head {
+  background-color: rgba(23, 47, 78, 0.918);
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 4px;
+  text-align: center;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+}
+
+.flex_expenses .total {
+  background-color: rgba(23, 47, 78, 0.562);
+  display: flex;
+  padding: 5px 10px;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+
+.flex_expenses .total h3 {
+  margin: 0;
+}
+
+.flex_expenses .expense {
+  border-left: 10px solid rgba(23, 47, 78, 0.918);
+  color: #000000;
+  padding: 2%;
+  border-radius: 7px;
+  background-color: #fefefe;
+  width: 85%;
+  margin: auto;
+  margin-bottom: 2%;
+  word-wrap: break-word;
+}
+
+.flex_expenses .expense p {
+  margin: 1%;
+}
